@@ -9,14 +9,23 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: meu-tema
 */
-ul {
+/* Header: lista horizontal */
+header ul {
   display: flex;
-  justify-content: center; /* centraliza os itens */
   list-style: none;
   padding: 0;
   margin: 0;
   gap: 15px;
 }
+
+/* Footer: lista vertical (padrão) */
+footer ul {
+  display: block; /* ou remova display flex */
+  list-style: none;
+  padding-left: 0; /* ajusta indentação */
+  margin: 0;
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -25,4 +34,39 @@ a {
 a:hover {
   text-decoration: underline;
   color: #0d6efd; /* azul no hover, por exemplo */
+}
+/* Menu do header: mantém flex para ficar um do lado do outro */
+.navbar-nav {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Links do header */
+.navbar-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-nav a:hover {
+  color: #0d6efd; /* azul Bootstrap */
+}
+
+/* Menu do footer: sem display flex */
+.nav-footer {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-footer li {
+  margin-bottom: 0.5rem;
+}
+
+.nav-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-footer a:hover {
+  color: #0d6efd;
 }

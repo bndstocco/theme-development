@@ -58,13 +58,13 @@
         <h2 class="mb-4 text-center">Nosso Portfólio</h2>
         <div class="row g-3">
             <div class="col-md-4">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/projeto1.jpg" alt="Projeto 1" class="img-fluid rounded shadow-sm">
+                <img src="https://picsum.photos/id/1011/600/400" alt="Projeto 1" class="img-fluid rounded shadow-sm">
             </div>
             <div class="col-md-4">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/projeto2.jpg" alt="Projeto 2" class="img-fluid rounded shadow-sm">
+                <img src="https://picsum.photos/id/1012/600/400" alt="Projeto 2" class="img-fluid rounded shadow-sm">
             </div>
             <div class="col-md-4">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/projeto3.jpg" alt="Projeto 3" class="img-fluid rounded shadow-sm">
+                <img src="https://picsum.photos/id/1015/600/400" alt="Projeto 3" class="img-fluid rounded shadow-sm">
             </div>
         </div>
     </div>

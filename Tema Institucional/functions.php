@@ -41,4 +41,5 @@ class Bootstrap_Nav_Walker_NoUl extends Walker_Nav_Menu {
   function end_el(&$output, $item, $depth=0, $args=null) {
     // Nada para fechar (fechamos no start_el)
   }
+  
 }
