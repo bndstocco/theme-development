@@ -2,7 +2,7 @@
 
 <main class="container my-5">
   <header class="mb-5 text-center">
-    <h1 class="display-5"><?php the_archive_title(); ?></h1>
+    <h1 class="display-5">Blog</h1>
     <?php if (is_category() || is_tag() || is_author()): ?>
       <p class="text-muted"><?php the_archive_description(); ?></p>
     <?php endif; ?>
