@@ -1,0 +1,28 @@
+/*
+Theme Name: Meu Tema Institucional
+Theme URI: https://seudominio.com
+Author: Seu Nome
+Author URI: https://seudominio.com
+Description: Um tema institucional personalizado para WordPress
+Version: 1.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: meu-tema
+*/
+ul {
+  display: flex;
+  justify-content: center; /* centraliza os itens */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 15px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0d6efd; /* azul no hover, por exemplo */
+}
